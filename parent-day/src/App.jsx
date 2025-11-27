@@ -93,13 +93,13 @@ const STUDENT_LIST = [
 ];
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCsoWoeAIHY5zKmC2xtKagZg1yY0r7KXQ0",
-  authDomain: "n-parent-s-day.firebaseapp.com",
-  projectId: "n-parent-s-day",
-  storageBucket: "n-parent-s-day.firebasestorage.app",
-  messagingSenderId: "915432670478",
-  appId: "1:915432670478:web:f0ea8f33f867e7bd06035f",
-  measurementId: "G-43WPJMXELF",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
