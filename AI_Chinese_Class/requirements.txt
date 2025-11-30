@@ -1,0 +1,5 @@
+streamlit
+azure-cognitiveservices-speech
+firebase-admin
+google-generativeai
+audio-recorder-streamlit
